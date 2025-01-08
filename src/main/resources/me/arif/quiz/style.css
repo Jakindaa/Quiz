@@ -1,0 +1,99 @@
+.label {
+    -fx-text-fill: #3E4A59; /* Daha nötr bir koyu mavi */
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-border-color: #5C7080;
+    -fx-border-width: 0px;
+    -fx-font-family: 'Roboto Thin';
+}
+
+.button {
+    -fx-text-fill: #FFFFFF; /* Beyaz metin */
+    -fx-background-color: #5C7080; /* Yumuşak bir koyu gri */
+    -fx-background-radius: 14px;
+    -fx-border-color: #394B59;
+    -fx-border-radius: 10px;
+    -fx-border-width: 4px;
+    -fx-font-family: 'Roboto Thin';
+}
+
+.button:hover {
+    -fx-background-color: #394B59; /* Daha koyu ton */
+    -fx-background-radius: 24px;
+    -fx-border-radius: 20px;
+}
+
+.button:pressed {
+    -fx-border-color: #5C7080;
+}
+
+.combo-box {
+    -fx-alignment: center;
+    -fx-background-color: #F5F8FA; /* Hafif bir beyaz-gri */
+    -fx-background-radius: 14px;
+    -fx-text-fill: #3E4A59;
+    -fx-font-size: 14px;
+    -fx-border-color: #394B59;
+    -fx-border-width: 2px;
+    -fx-border-radius: 10px;
+    -fx-font-family: 'Roboto Thin';
+}
+
+.combo-box:hover {
+    -fx-background-color: #394B59;
+    -fx-border-radius: 14px;
+    -fx-text-fill: #FFFFFF; /* Beyaz metin */
+}
+
+.combo-box:showing {
+    -fx-background-radius: 18px 18px 0px 0px;
+    -fx-border-radius: 14px 14px 0px 0px;
+    -fx-border-width: 2px 2px 2px 2px;
+}
+
+.combo-box .list-view {
+    -fx-background-color: #F5F8FA;
+    -fx-background-radius: 0px 0px 18px 18px;
+    -fx-border-radius: 0px 0px 14px 14px;
+    -fx-border-color: #394B59;
+    -fx-border-width: 2px;
+}
+
+.combo-box .list-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: #3E4A59;
+}
+
+.combo-box .list-cell:hover {
+    -fx-background-color: #394B59;
+    -fx-background-radius: 10px;
+    -fx-text-fill: #FFFFFF;
+}
+
+#title {
+    -fx-border-width: 0px 0px 4px 0px;
+    -fx-border-radius: 5px;
+    -fx-font-size: 30px;
+    -fx-text-fill: #3E4A59;
+    -fx-font-family: 'Roboto Thin';
+}
+
+#menuButton {
+    -fx-text-fill: #FFFFFF;
+    -fx-background-color: #394B59;
+    -fx-background-radius: 14px;
+    -fx-border-color: #5C7080;
+    -fx-border-radius: 10px;
+    -fx-border-width: 4px;
+    -fx-font-family: 'Roboto Thin';
+}
+
+#menuButton:hover {
+    -fx-background-color: #5C7080;
+    -fx-background-radius: 24px;
+    -fx-border-radius: 20px;
+}
+
+#menuButton:pressed {
+    -fx-border-color: #5C7080;
+}
