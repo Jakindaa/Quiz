@@ -1,5 +1,5 @@
 .label {
-    -fx-text-fill: #3E4A59; /* Daha nötr bir koyu mavi */
+    -fx-text-fill: #3E4A59;
     -fx-font-size: 18px;
     -fx-font-weight: bold;
     -fx-border-color: #5C7080;
@@ -8,8 +8,8 @@
 }
 
 .button {
-    -fx-text-fill: #FFFFFF; /* Beyaz metin */
-    -fx-background-color: #5C7080; /* Yumuşak bir koyu gri */
+    -fx-text-fill: #FFFFFF;
+    -fx-background-color: #5C7080;
     -fx-background-radius: 14px;
     -fx-border-color: #394B59;
     -fx-border-radius: 10px;
@@ -18,7 +18,7 @@
 }
 
 .button:hover {
-    -fx-background-color: #394B59; /* Daha koyu ton */
+    -fx-background-color: #394B59;
     -fx-background-radius: 24px;
     -fx-border-radius: 20px;
 }
@@ -29,7 +29,7 @@
 
 .combo-box {
     -fx-alignment: center;
-    -fx-background-color: #F5F8FA; /* Hafif bir beyaz-gri */
+    -fx-background-color: #F5F8FA;
     -fx-background-radius: 14px;
     -fx-text-fill: #3E4A59;
     -fx-font-size: 14px;
@@ -42,7 +42,7 @@
 .combo-box:hover {
     -fx-background-color: #394B59;
     -fx-border-radius: 14px;
-    -fx-text-fill: #FFFFFF; /* Beyaz metin */
+    -fx-text-fill: #FFFFFF;
 }
 
 .combo-box:showing {
